@@ -68,6 +68,42 @@ h3{
 	font-family: 'modular';
 	font-size: 50px;
 }
-.projectimg{
-	width 20%
+/*project*/
+.project1{
+	display: flex;
+	background-color: #D7F8FF
 }
+.projectimg{
+	width: 50%
+}
+
+.project1div{
+	text-align: center;
+	padding-top: 30px;
+	margin: 20px
+	
+}
+h4{
+	font-family: "modular";
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+/*project*/
+footer{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
