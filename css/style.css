@@ -5,6 +5,9 @@
 html{
 	scroll-behavior: smooth;
 }
+body{
+	background-color: #FFF5F5;
+}
 @font-face{
 	font-family:'modular';
 	src: url(fonts/modular.ttf);
@@ -14,12 +17,14 @@ header{
 	display: flex;
 	justify-content: space-between;
 	
+background-color: #fff
 }
 .navigation{
 	display: flex;
 	margin-right:65px;
 	margin-top: 25px;
 	list-style: none;
+	
 	
 }
 h1{
@@ -31,6 +36,9 @@ h1{
 	font-size: 40px;
 	
 		
+}
+p{
+	color: #000;
 }
 
 .navlink{
@@ -52,7 +60,8 @@ a{
 	
 }
 .abouttext{
-	margin: 50px 140px 
+	margin: 50px 140px 50px;
+		text-align: center;
 }
 .videodiv{
 	display: flex;
@@ -95,7 +104,8 @@ h3{
 .project1div{
 	text-align: center;
 	padding-top: 30px;
-	margin: 20px
+
+	width:50%;
 	
 }
 h4{
@@ -178,10 +188,27 @@ h5{
 	.projectimg{
 		display: none;
 	}
+	.project1div{
+	text-align: center;
+	
+	width:100%;
+	
+}
+	.projecttext{
+	margin: 10px 40px
+}
 	.imgphone{
 	display: block;
 	width: 100%
 }
+	.abouttext{
+	margin: 50px 70px;
+	text-align: center;
+}
+	h5{
+		font-size: 50px;
+		padding: none;
+	}
 }
 
 
