@@ -1,0 +1,17 @@
+@font-face{
+	font-family:'modular';
+	src: url(fonts/modular.ttf);
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+.navigation{
+	display: flex;
+	margin-right:0%
+}
+h1{
+	font-family: 'modular', sans-serif;
+	color: gray
+}
