@@ -1,6 +1,6 @@
 * {
 	margin: 0px;
-	background-color: #fff;
+	
 }
 @font-face{
 	font-family:'modular';
@@ -10,12 +10,55 @@
 header{
 	display: flex;
 	justify-content: space-between;
+	background-color: lemonchiffon;
 }
 .navigation{
 	display: flex;
-	margin-right:0%
+	margin-right:65px;
+	margin-top: 25px;
+	list-style: none;
+	
 }
 h1{
 	font-family: 'modular', sans-serif;
-	color: gray
+	color: #000;
+	margin-left: 10%;
+	flex: 1;
+	margin-top: 25px;
+	font-size: 40px;
+	
+		
 }
+.navlink{
+	margin: 10px;
+}
+
+.videogum{
+	width: 100%;
+}
+.about{
+	background-color: #FFF5F5;
+	
+}
+.videodiv{
+	display: flex;
+	justify-content: center;
+	
+}
+.videome{
+
+	width: 25%;
+	margin: 20px;
+}
+h2{
+
+	text-align: center;
+	font-family: 'modular';
+	font-size: 30px
+}
+
+.projects{
+	background-color: #F8BBD9;
+	height: 350px;
+}
+
