@@ -81,6 +81,9 @@ h2{
 	margin-top: 
 }
 
+
+/*about*/
+/*project*/
 .projectstitle{
 	background-color: #F8BBD9;
 	padding: 50px
@@ -91,11 +94,9 @@ h3{
 	font-family: 'modular';
 	font-size: 50px;
 }
-/*about*/
-/*project*/
 .project1{
 	display: flex;
-	background-color: #D7F8FF
+	background-color: #D7F8FF;
 }
 .projectimg{
 	width: 50%
@@ -130,6 +131,9 @@ h4{
 }
 .imgphone{
 	display: none;
+}
+.more{
+	text-decoration: underline;
 }
 /*project*/
 /*footer*/
@@ -170,10 +174,14 @@ h5{
 	color: #000;
 	margin-left: 10%;
 	margin-top: 30px;
-	font-size:30px;
+	font-size:25px;
 	
 		
 }
+	.navigation{
+		font-size: 75%;
+		margin-right:20px;
+	}
 	.videogum{
 		display: none;
 		
@@ -208,6 +216,9 @@ h5{
 	h5{
 		font-size: 50px;
 		padding: none;
+	}
+	.icons{
+		width: 10%;
 	}
 }
 
